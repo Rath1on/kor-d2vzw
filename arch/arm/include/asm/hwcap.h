@@ -4,6 +4,7 @@
 /*
  * HWCAP flags - for elf_hwcap (in kernel) and AT_HWCAP
  */
+<<<<<<< HEAD
 #define HWCAP_SWP	(1 << 0)
 #define HWCAP_HALF	(1 << 1)
 #define HWCAP_THUMB	(1 << 2)
@@ -24,6 +25,7 @@
 #define HWCAP_IDIVA	(1 << 17)
 #define HWCAP_IDIVT	(1 << 18)
 #define HWCAP_IDIV	(HWCAP_IDIVA | HWCAP_IDIVT)
+#define HWCAP_VFPD32	(1 << 19)	/* set if VFP has 32 regs (not 16) */
 
 #if defined(__KERNEL__) && !defined(__ASSEMBLY__)
 /*

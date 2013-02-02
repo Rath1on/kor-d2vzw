@@ -4,7 +4,6 @@
 /*
  * HWCAP flags - for elf_hwcap (in kernel) and AT_HWCAP
  */
-<<<<<<< HEAD
 #define HWCAP_SWP	(1 << 0)
 #define HWCAP_HALF	(1 << 1)
 #define HWCAP_THUMB	(1 << 2)

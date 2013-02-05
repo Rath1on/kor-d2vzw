@@ -375,6 +375,7 @@ KBUILD_CFLAGS   := -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs \
 		   -Werror-implicit-function-declaration \
 		   -Wno-format-security \
 		   -fmodulo-sched -fmodulo-sched-allow-regmoves \
+		   -mtune=cortex-a15 \
 		   -fno-delete-null-pointer-checks \
 		   -D_$(TARGET_PRODUCT)_
 

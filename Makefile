@@ -374,6 +374,7 @@ KBUILD_CFLAGS   := -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs \
 		   -fno-strict-aliasing -fno-common \
 		   -Werror-implicit-function-declaration \
 		   -Wno-format-security \
+		   -fmodulo-sched -fmodulo-sched-allow-regmoves \
 		   -fno-delete-null-pointer-checks \
 		   -D_$(TARGET_PRODUCT)_
 
